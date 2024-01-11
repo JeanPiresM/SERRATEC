@@ -1,0 +1,19 @@
+h1 {
+  background: black;
+  color: white;
+}
+
+h2 a {
+  background-color: tomato;
+  color: white;
+}
+
+h3 a{
+  background-color: black;
+  color: white;
+}
+
+a{
+background-color: burlywood;
+color: black;
+}
