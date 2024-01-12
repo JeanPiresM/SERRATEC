@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  background: gray;
+}
+
+.box {
+  background: #f8a34f;
+  width: 110px;
+  height: 60px;
+  padding: 50px;
+  border: 4px solid #d77009;
+  border-radius: 20px;
+  margin: 60px;
+  text-align: center;
+}
+
+.box2 {
+  background: lightblue;
+  width: 110px;
+  height: 60px;
+  padding: 50px;
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 60px;
+  text-align: center;
+}
