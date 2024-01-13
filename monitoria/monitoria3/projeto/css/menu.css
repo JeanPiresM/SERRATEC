@@ -1,0 +1,38 @@
+.menuConfiguracao ul li {
+  display: inline;
+}
+
+.menuConfiguracao ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all ease 1s;
+}
+.menuConfiguracao ul li a:hover{
+  color: red;
+}
+
+.menuConfiguracao ul li {
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all ease 1s;
+}
+.menuConfiguracao ul li:hover {
+  background-color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menuConfiguracao ul li:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.menuConfiguracao ul li:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+
+
