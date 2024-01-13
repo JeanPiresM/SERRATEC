@@ -1,0 +1,15 @@
+.none {
+  display: none;
+}
+
+a {
+  /* display: block;  */
+  /* display: inline; */
+  display: inline-block;
+  background: #ddd;
+  text-decoration: none;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  margin: 25px;
+}
