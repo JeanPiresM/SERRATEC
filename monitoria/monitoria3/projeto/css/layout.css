@@ -1,0 +1,43 @@
+/* Seletor universal */
+* {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+#conteudoGeral {
+  border: 1px solid black;
+  width: 1024px;
+  height: 800px;
+}
+
+#topo {
+  border: 1px solid blue;
+  width: 1024px;
+  height: 70px;
+}
+
+#menu {
+  color: green;
+  width: 1024px;
+  height: 50px;
+}
+
+#conteudo {
+  border: 1px solid yellow;
+  width: 1024px;
+  height: 630px;
+}
+
+#rodape {
+  border: 1px solid red;
+  width: 1024px;
+  height: 40px;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+
