@@ -6,35 +6,32 @@
 
 #conteudoGeral {
   border: 1px solid black;
-  width: 1024px;
+  max-width: 80%;
   height: 800px;
 }
 
 #topo {
   border: 1px solid blue;
-  width: 1024px;
+  max-width: 1024px;
   height: 70px;
 }
 
 #menu {
   border: 1px solid green;
-  width: 1024px;
+  max-width: 1024px;
   height: 50px;
+ 
 }
 
 #conteudo {
   border: 1px solid yellow;
-  width: 1024px;
-  height: 630px;
+  max-width: 1024px;
+  height: 640px;
 }
 
-#rodape {
+#rodape{
   border: 1px solid red;
-  width: 1024px;
+  max-width: 1024px;
   height: 40px;
 }
 
-p {
-  text-align: center;
-  font-size: 35px;
-}
