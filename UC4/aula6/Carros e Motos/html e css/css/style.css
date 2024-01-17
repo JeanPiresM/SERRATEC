@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+
+p {
+  font-size: 20px;
+  color: #b2b2b2;
+
+}
+
+.destaque {
+  color: #febe01;
+}
+
+.botaoCompra {
+  background-color: #febf01;
+  color: #332200;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 20px;
+  height: 20px;
+  display:inline-block;
+  margin-top: 10px;
+}
+
+.veiculo {
+  margin: 20px;
+  background-color: #111;
+  padding: 10px 40px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 460px){
+  .botaoCompra {
+    font-size: 16px;
+    padding: 18px;
+    margin-top: 0px;
+  }
+  .container{
+    width: 90%;
+  }
+  
+}
+
+.botaoCompra:hover{
+  box-shadow: rgba(255, 136, 0, 0.575) 5px 5px 5px 5px;
+  
+}
