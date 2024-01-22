@@ -1,0 +1,9 @@
+.menu_configuração ul li {
+  display: inline;
+  background-color: ;
+}
+.menu_configuração ul li:hover {
+}
+.menu_configuração ul li a {
+  text-decoration: none;
+}
