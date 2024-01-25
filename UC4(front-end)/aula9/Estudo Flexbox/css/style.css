@@ -93,6 +93,11 @@ span {
   border: 2px solid rgb(69, 149, 196)
 }
 
+.psiquico{
+  background: rgb(243, 102, 185);
+  border: 2px solid rgb(243, 102, 185);
+}
+
 p {
   color: white;
 }
