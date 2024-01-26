@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #e7e7e7;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background: rgba(255, 0, 0, 0.1);
+  border: 2px solid rgba(255, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.item {
+  width: 150px;
+  background: rgba(0, 0, 255, 0.1);
+  border: 4px solid rgba(0, 0, 255, 0.5);
+  border-radius: 5px;
+  margin-inline-end: 4px;
+}
+
+span {
+  display: inline-block;
+}
+
+.nome {
+  margin-block-end: 7px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border: 3px solid black;
+}
+
+.tipo{
+  padding: 3px;
+  border-radius: 8px;
+  margin-block-end: 8px;
+}
+
+.pedra {
+  background: rgb(163, 140, 33);
+  border: 2px solid rgb(163, 140, 33);
+}
+
+.dark {
+  background: rgb(112, 112, 112);
+  border: 2px solid rgb(112, 112, 112);
+}
+
+.agua {
+  border: 2px solid rgb(69, 149, 196);
+  background: rgb(69, 149, 196);
+}
+
+.veneno {
+  background: rgb(185, 127, 201);
+  border: 2px solid rgb(185, 127, 201);
+}
+
+.fantasma {
+  background: rgb(123, 98, 163);
+  border: 2px solid rgb(123, 98, 163);
+}
+
+.grama {
+  background: rgb(155, 204, 80);
+  border: 2px solid rgb(155, 204, 80);
+}
+
+.terra{
+  background: rgb(247, 222, 63);
+  border: 2px solid rgb(247, 222, 63);
+}
+
+.drag{
+  border: 2px solid rgb(83, 164, 207);
+  background-image: linear-gradient(to bottom, #53A4CF 50%, orange 50%)
+}
+.eletrico{
+  background: rgb(238, 213, 53);
+  border: 2px solid rgb(238, 213, 53);
+}
+
+.voador{
+  background-image: linear-gradient(to bottom, #53A4CF 50%, gray 50%);
+  border: 2px solid rgb(69, 149, 196)
+}
+
+.psiquico{
+  background: rgb(243, 102, 185);
+  border: 2px solid rgb(243, 102, 185);
+}
+
+p {
+  color: white;
+}
+
+.normal{
+order: 1;
+}
+
+.raro{
+order: 0;
+}
+
+.cabecalho{
+  background: red;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  border: 3px solid black;
+}
+
+
+.titulo{
+  font-size: 90px;
+}
+
+.rodape{
+  background: red;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  order: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape p{
+  font-size: 30px;
+  color: black;
+}
+
+.link{
+  text-decoration: none;
+  color: blue;
+}
+
+
