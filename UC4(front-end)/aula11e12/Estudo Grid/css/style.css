@@ -10,7 +10,7 @@
   height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 300px);
+  grid-template-rows: 300px 50px 300px;
   justify-items: center;
   align-items: center;
   grid-template-areas:
@@ -25,16 +25,19 @@
   height: 200px;
 }
 
-.amarelo {
-  background: yellow;
+.laranja {
+  background: orange;
+  grid-area: c1;
 }
 
 .azul {
   background: blue;
+  grid-area: c2;
+  display: flex;
 }
 
-.laranja {
-  background: orange;
+.amarelo {
+  background: yellow;
   grid-area: c5;
 }
 
