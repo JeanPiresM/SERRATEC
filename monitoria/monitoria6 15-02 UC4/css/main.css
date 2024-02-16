@@ -1,0 +1,9 @@
+.formulario,
+.form-item {
+  display: grid;
+  gap: 10px;
+}
+
+input{
+  padding: 6px;
+}
