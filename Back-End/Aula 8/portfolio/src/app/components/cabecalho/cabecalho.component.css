@@ -1,0 +1,94 @@
+.cabecalho {
+  background: #0b0b0d85;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.menu{
+  max-width: 100%;
+}
+
+.menu-lista {
+  list-style: none;
+  display: flex;
+  gap: 150px;
+}
+
+.menu-lista li {
+  background: #0042ff;
+  padding: 15px;
+  border-radius: 20px;
+  position: relative;
+  width: 300px;
+}
+
+.menu-lista li:hover {
+  background: #113a8c;
+}
+
+
+li a {
+  color: white;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+li a:hover {
+  color: #0ef;
+}
+
+li a::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+}
+
+@media (max-width: 730px){
+  .cabecalho {
+    width: 100vw;
+   
+  }
+  
+  .menu-lista {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+
+  }
+  
+  .menu-lista li {
+    background: #0042ff;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    width: 300px;
+  }
+  
+  .menu-lista li:hover {
+    background: #113a8c;
+  }
+  
+  
+  li a {
+    color: white;
+    padding: 5px;
+    font-size: 1.3rem;
+  }
+  
+  li a:hover {
+    color: #0ef;
+  }
+  
+ 
+  }

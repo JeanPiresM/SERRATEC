@@ -1,0 +1,77 @@
+.conteudoPrin {
+  text-align: center;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  padding-top: 70px;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "titulo"
+    "foto"
+    "texto";
+  gap: 30px;
+  color: white;
+}
+
+.titulo {
+  grid-area: titulo;
+  font-size: 40px;
+}
+
+.containerFoto {
+  width: 250px;
+  height: 250px;
+  grid-area: foto;
+  justify-self: center;
+}
+
+.containerFoto img {
+  width: 100%;
+  height: 250px;
+  border-radius: 50%;
+  grid-area: foto;
+  border: 4px solid #0042ff;
+}
+
+.paragrafo {
+  border: 2px solid #0042ff;
+  width: 600px;
+  margin: auto;
+  grid-area: texto;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 730px){
+  .conteudoPrin{
+    margin-top: 130px;
+  }
+  .containerFoto {
+    border: 4px solid #0042ff;
+    width: 300px;
+    height: 300px;
+    grid-area: foto;
+    border-radius: 600px;
+    justify-self: center;
+  }
+
+  .containerFoto img {
+    width: 300;
+    height: 300px;
+    border-radius: 600px;
+    grid-area: foto;
+  }
+  .paragrafo {
+    border: 2px solid #0042ff;
+    width: 350px;
+    margin: auto;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.paragrafo p{
+  padding: 0px 25px 0px 25px;
+  text-align: center;
+;
+
+  }
+}
