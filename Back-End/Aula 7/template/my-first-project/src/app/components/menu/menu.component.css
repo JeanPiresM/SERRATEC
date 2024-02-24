@@ -1,0 +1,21 @@
+svg{
+  width: 100px;
+  height: 80px;
+}
+
+.nav-link{
+  color: black;
+  font-size: 30px;
+}
+
+.nav-link:hover{
+  background: rgb(83, 144, 217);
+  border-radius: 5px;
+  transition: 0.5s all ease;
+}
+
+.nav-link:focus{
+  background: rgb(83, 144, 217);
+  border-radius: 5px;
+  transition: 0.5s all ease;
+}
