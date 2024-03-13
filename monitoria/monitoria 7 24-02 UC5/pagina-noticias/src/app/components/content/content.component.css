@@ -6,7 +6,7 @@
   border: 2px solid rgb(0, 0, 0);
 }
 
-.foto {
+.foto01 {
   width: 100%; /* Modificado para ocupar 100% da largura do contêiner */
   max-height: 600px; /* Adicionado para garantir que a altura não ultrapasse 450px */
   display: flex;
@@ -33,5 +33,8 @@ img {
 
 .conteudo02{
   border: 2px solid rgb(0,0,0);
+  display: grid;
+  grid-template-areas: 
+  "c1 c2 c3";
 }
 
