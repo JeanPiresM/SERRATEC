@@ -1,0 +1,30 @@
+#conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.texto{
+  background-color: gray;
+  height: 250px;
+  width: 85%;
+  border: 5px solid red;
+  display: inline-block;
+  margin: 5px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p{
+  
+}
+#texto3{
+  background-color: gray;
+  border: 5px solid red;
+  grid-column: 1/3;
+  margin: 20px;
+  height: 250px;
+  width: 90%;
+}

@@ -1,0 +1,31 @@
+/*seletor universal*/
+*{
+  margin: 0px ;
+  padding: 0px;
+}
+#conteudoGeral{
+border: 1px solid black;
+width:80%;
+height: 800px;
+margin: 0 auto;
+}
+#topo{
+  border: 1px solid blue;
+  width: 1024px;
+  height: 70px;
+}
+#menu{
+  border: 1px solid green;
+  width: 1024px;
+  height: 50px;
+}
+#conteudo{
+  border: 1px solid yellow;
+  width: 1024px;
+  height: 640px;
+}
+#rodape{
+  border: 1px solid red;
+  width: 1024px;
+  height: 40px;
+}

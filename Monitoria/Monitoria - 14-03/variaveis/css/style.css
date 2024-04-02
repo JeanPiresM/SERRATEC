@@ -1,0 +1,48 @@
+:root{
+  --bg-Primario: #80FFDB;
+  --bg-Secundario: #03045e;
+  --texto-Primario: #6930C3;
+  --texto-Secundario: #F72585;
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg-Primario: #03045e;
+    --bg-Secundario: #80FFDB;
+    --texto-Primario: #F72585;
+    --texto-Secundario: #6930C3;
+}
+} 
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+/*
+Cores escolhidas
+
+
+Background 1:#03045e
+Background 2: #80FFDB
+Texto 1: #F72585
+Texto 2: #6930C3
+*/
+
+body{
+background-color: var(--bg-Primario);
+color: var(--texto-Primario);
+text-align: center;
+padding-top: 50px;
+}
+
+h1{
+  color: var(--texto-Secundario)
+}
+
+p{
+  color: var(--texto-Primario)
+}

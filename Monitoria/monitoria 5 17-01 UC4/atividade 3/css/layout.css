@@ -1,0 +1,53 @@
+/* Seletor universal */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #e0aa40;
+}
+#conteudoGeral {
+  border: 1px solid black;
+  max-width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  box-shadow: 3px 2px 25px 2px black;
+}
+
+#topo {
+  border: 1px solid blue;
+  background-color: #e0aa40;
+  max-width: 100%;
+  height: 70px;
+  padding: 15px;
+}
+
+#menu {
+  border: 1px solid green;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding-bottom: 15px;
+}
+
+#conteudo {
+  border: 1px solid yellow;
+  width: 100%;
+  height: 640px;
+  background-color: white;
+}
+
+#rodape {
+  border: 1px solid red;
+  width: 100%;
+  height: 40px;
+}
+
+@media screen and (max-width: 780px) {
+  #conteudoGeral{
+    height: 900px;
+  }
+  #conteudo{
+    height: 580px;
+  }
+}

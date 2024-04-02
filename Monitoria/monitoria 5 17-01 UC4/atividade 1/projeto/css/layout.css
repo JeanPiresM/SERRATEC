@@ -1,0 +1,41 @@
+/* Seletor universal */
+* {
+  margin: 0px auto;
+  padding: 0px;
+}
+body{
+  background-color: #e0aa40;
+}
+#conteudoGeral {
+  border: 1px solid black;
+  max-width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  box-shadow: 3px 2px 25px 2px black;
+}
+
+#topo {
+  border: 1px solid blue;
+  width: 100%;
+  height: 70px;
+}
+
+#menu {
+  border: 1px solid green;
+  width: 100%;
+  height: auto;
+ background-color: black;
+}
+
+#conteudo {
+  border: 1px solid yellow;
+  max-width: 1024px;
+  height: 640px;
+}
+
+#rodape{
+  border: 1px solid red;
+  max-width: 1024px;
+  height: 40px;
+}
+
