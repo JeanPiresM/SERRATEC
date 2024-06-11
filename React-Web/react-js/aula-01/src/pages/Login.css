@@ -1,0 +1,38 @@
+.containerInput {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+}
+
+.input{
+  width: 300px;
+  padding: 5px;
+  border: 2px solid purple;
+}
+
+.botaoLogin{
+    margin-top: 20px;
+}
+
+
+.botaoLogin:hover{
+    box-shadow: 5px 5px 50px 15px purple;
+}
+.botaoLogin:active{
+  background-color: darkblue;
+}
+
+.containerBotao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.texto{
+  color: white;
+  font-size: 20px;
+}

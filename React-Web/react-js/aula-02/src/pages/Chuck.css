@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+img{
+    border: 2px solid white;
+}
+
+
+.title{
+    text-decoration: underline;
+
+}
+
+.joke{
+    font-size: 35px;
+}
+
+.jokeButton{
+    border-radius: 10px;
+    border-color: cyan;
+    border-width: 5px;
+    width: 250px;
+    padding: 10px;
+    color: black;
+}
